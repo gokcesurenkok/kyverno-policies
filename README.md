@@ -15,4 +15,4 @@
 
 Under policies folder , there is a mutate policy that puts dockerhub.io imagepullsecret to containers pulling image except hb private image registries
 
-``` kubectl create -f policies/mutate-imagepullsecret.yaml
+``` kubectl create -f policies/mutate-imagepullsecret.yaml ```
